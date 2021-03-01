@@ -5,8 +5,7 @@ inputRef.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
     
-    inputRef.value !== '' ? nameOutputRef.textContent = event.currentTarget.value : nameOutputRef.textContent =  'незнакoмец' 
-       
+    inputRef.value !== '' ? nameOutputRef.textContent = event.currentTarget.value : nameOutputRef.textContent =  'незнакoмец'       
 }
 
  
